@@ -6,8 +6,8 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            DateTime dt = new DateTime(2020, 04, 24, 22, 47, 00);
-            Console.WriteLine(dt.TimeElapse());
+            string s1 = "Ordem e Progresso";
+            Console.WriteLine(s1.Cut(10));
         }
     }
 }
